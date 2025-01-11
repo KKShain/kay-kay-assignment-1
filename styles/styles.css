@@ -275,7 +275,7 @@ span{
     margin: 80px 0px;
 }
 
-.donattion-btn-cards{
+.donation-btn-cards{
     display: flex;
     justify-content: space-between;
     gap: 24px;
@@ -294,7 +294,7 @@ span{
 .donation-add-amount{
     background-color: rgb(255, 255, 255);
     padding: 20px 0;
-    color: rgba(14, 14, 14, 0.5);\
+    color: rgba(14, 14, 14, 0.5);
 }
 
 .donation-submit-button{
@@ -309,4 +309,61 @@ span{
 
 .amount-btn:hover{
     background-color: rgb(198, 228, 214);
+}
+
+#newsletter-section{
+    background-color: rgb(198, 228, 214);
+    text-align: center;
+    margin: 50px;
+    padding: 50px 200px;
+    border-radius: 24px;
+}
+
+.newsletter-section-title{
+    color: rgb(14, 14, 14);
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.newsletter-section-subtitle-1{
+    color: rgba(14, 14, 14, 0.7);
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.newsletter-section-subtitle-2{
+    color: rgba(14, 14, 14, 0.7);
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.subscribe{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.subscribe p{
+    background-color: rgb(255, 255, 255);
+    padding: 18px 350px 18px 40px;
+    border-radius: 12px 0px 0px 12px;
+    color: rgba(14, 14, 14, 0.7);
+}
+
+.newsletter-subscribe-btn{
+    background: rgb(0, 106, 80);
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    font-weight: 500;
+    border: none;
+    padding: 18px;
+    border-radius: 0px 12px 12px 0px;
+}
+
+footer{
+    color: rgb(14, 14, 14);
+    font-size: 32px;
+    font-weight: 700;
+    text-align: center;
+    padding: 50px 100px;
 }
