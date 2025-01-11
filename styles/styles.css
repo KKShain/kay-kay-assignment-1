@@ -268,3 +268,42 @@ li>button{
 span{
     margin-right: 12px;
 }
+
+#donation{
+    text-align: center;
+    padding: 0 88px;
+    margin: 80px 0px;
+}
+
+.donattion-btn-cards{
+    display: flex;
+    justify-content: space-between;
+    gap: 24px;
+}
+
+.amount-btn{padding: 32px;
+    color: rgba(14, 14, 14, 0.8);
+    font-size: 40px;
+    font-weight: 700;
+    background-color: rgb(255, 255, 255);
+    border-color: rgba(14, 14, 14, 0.15);
+    border-radius: 16px;
+}
+
+.donation-add-amount{
+    background-color: rgb(255, 255, 255);
+    padding: 20px 0;
+    color: rgba(14, 14, 14, 0.5);\
+}
+
+.donation-submit-button{
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+    font-weight: 600;
+    background-color:rgb(0, 106, 80);
+    padding: 17px 34px 17px 34px;
+    border-radius: 8px;
+    border: none;
+
+
+}
