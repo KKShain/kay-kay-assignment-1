@@ -1,0 +1,76 @@
+
+
+.fira-sans-regular {
+    font-family: "Fira Sans", serif;
+    font-style: normal;
+  }
+nav ul{
+    display: flex;
+    gap: 1000px;
+    list-style-type: none;
+}
+
+/* shared styles */
+
+body{
+    max-width: 1280px;
+    margin: 0 auto;
+    justify-items: center;
+}
+
+#hero{
+    border-radius: 24px;
+    background-color:rgb(198, 228, 214);
+    background-repeat: no-repeat;
+    width: 1036px;
+    height: 450px;
+    margin: 20px 104px 80px 104px;
+    display: flex;
+    gap: 51px;
+    padding: 65px 81px 65px 81px;
+
+}
+#hero .hero-texts{
+    width: 503px;
+    height: 162px;
+    margin-top: 60px;
+}
+#hero .hero-images{
+    height: 384px;
+    width: 266px;
+    margin-top: 30px;
+     
+}
+#hero .hero-texts .subtitle{
+    color: rgba(14, 14, 14, 0.5);
+    font-family: Fira Sans;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+#hero .hero-texts .title{
+    color: rgb(14, 14, 14);
+    font-family: Fira Sans;
+    font-size: 45px;
+    font-weight: 600;
+    line-height: 54px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+#hero .hero-texts .button{
+    border-radius: 8px;
+    background: rgb(0, 106, 80);
+    width: 218px;
+    height: 45px;
+    color: rgb(255, 255, 255);
+    font-family: Fira Sans;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 17px;
+    letter-spacing: 0%;
+    text-align: left;
+    padding: 14px 27px 14px 27px;
+    border: none;
+}
