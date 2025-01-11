@@ -406,3 +406,19 @@ footer{
 .designation{
     color: rgba(14, 14, 14, 0.6);
 }
+
+footer{
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 48px;
+}
+
+.social-icons{
+    display: flex;
+    justify-content: center;
+    gap: 12px;
+}
+
+hr{ 
+    margin: 24px 0;
+}
